@@ -9,8 +9,6 @@ async function main() {
   console.log(` Contract Address: ${chatApp.address}`);
 }
 
-//npx hardhat run scripts/deploy.js --network localhost
-
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
